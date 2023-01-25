@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ご利用アンケート</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>ご利用アンケート</h1>
+                </div>
+                <div class="col-sm-6 align-right">
+                    <a href="/">HOMEへ戻る</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <hr />
+    <div class="container">
+        <form action="https://book.h2o-space.com/html/form.php" method="post" class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <p>この度は、本書をご利用頂きありがとうございます。恐れ入りますが、以下のフォームにてご記入頂き、送信して頂けると幸いです。</p>
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="例）織田　信長"/>
+                </div>
+                <div class="form-group">
+                    <label for="job">ご職業</label>
+                    <select id="job" name="job" class="form-control">
+                        <option value="">選択してください</option>
+                        <option value="会社員">会社員</option>
+                        <option value="学生">学生</option>
+                        <option value="その他">その他</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr />
+
+    <div class="container">
+
+        <footer>
+            <o>&copy; H20 space</o>
+        </footer>
+    </div>
+</body>
+</html>
